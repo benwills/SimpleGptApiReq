@@ -19,6 +19,8 @@ $req = new SimpleGptApiReq(
 
 $rsp = $req->Exec();
 print_r($rsp);
+
+$resultText = $rsp->Data;
 ```
 
 To use ollama, just add your ollama api root url after 'your gpt prompt' above. eg:
@@ -33,5 +35,7 @@ $req = new SimpleGptApiReq(
 
 $rsp = $req->Exec();
 print_r($rsp);
+
+$resultText = $rsp->Data;
 ```
 

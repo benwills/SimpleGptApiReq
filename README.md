@@ -1,6 +1,6 @@
 # SimpleGptApiReq
 
-Single file PHP + Curl class to send a single chat request to OpenAI, Anthropic, Gemini, or ollama.
+Single file PHP + Curl class to send a _single_ chat request to OpenAI, Anthropic, Gemini, or ollama.
 
 Use this if you're interested in a single, lightweight solution for querying the major GPT APIs. Or if you just want to understand better how the requests and responses happen.
 

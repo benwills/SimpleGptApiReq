@@ -21,7 +21,7 @@ print_r($rsp);
 
 To use ollama, just add your ollama api root url after 'your gpt prompt' above. eg:
 
-```
+```php
 $req = new SimpleGptApiReq(
 	'ollama-model-name',
 	'ollama api key',

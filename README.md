@@ -6,8 +6,7 @@ Use this if you're interested in a single, lightweight solution for querying the
 
 There are still some bugs to work out. But it's the quickest and easiest solution that exists if you want to start using the APIs.
 
-```
-<?php
+```php
 require_once(__DIR__.'/lib.SimpleGptApiReq.php');
 
 $req = new SimpleGptApiReq(

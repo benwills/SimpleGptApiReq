@@ -6,6 +6,8 @@ Use this if you're interested in a single, lightweight solution for querying the
 
 There are still some bugs to work out. But it's the quickest and easiest solution that exists if you want to start using the APIs.
 
+See example.php for a working example, which just requires you adding your API key(s). And if you want to use ollama, also adding the ollama root url.
+
 ```php
 require_once(__DIR__.'/lib.SimpleGptApiReq.php');
 

@@ -17,7 +17,7 @@ $req = new SimpleGptApiReq(
 	'your gpt prompt'
 );
 
-$rsp = $req->Exec();
+$rsp = $req->Exec(); // returns new SimpleGptApiReqRsp()
 print_r($rsp);
 
 $resultText = $rsp->Data;
@@ -33,7 +33,7 @@ $req = new SimpleGptApiReq(
 	'ollama root url'
 );
 
-$rsp = $req->Exec();
+$rsp = $req->Exec(); // returns new SimpleGptApiReqRsp()
 print_r($rsp);
 
 $resultText = $rsp->Data;

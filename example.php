@@ -2,10 +2,10 @@
 
 require_once(__DIR__.'/lib.SimpleGptApiReq.php');
 
-$api_key_anthropic = 'sk-ant-api03-...';
+$api_key_anthropic = '...';
 $api_key_gemini    = '...';
-$api_key_openai    = 'sk-proj-...';
-$api_key_ollama    = 'sk-...';
+$api_key_openai    = '...';
+$api_key_ollama    = '...';
 
 $ollama_url = 'http://localhost:11434/';
 
